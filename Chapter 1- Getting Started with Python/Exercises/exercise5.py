@@ -1,5 +1,8 @@
-name = "Mariez"
-age = "16"
-school = "Bath Spa University RAK"
+#import math module
+from math import pi
 
-print("My name is " + name + " and I am " + str(age) + " years old. I study at " + school)
+#request input from user
+r = float(input ("What is the radius of the circle : "))
+
+#area of the circle based on the inputted radius
+print ("The area of the circle with radius " + str(r) + " is: " + str(pi * r**2))
