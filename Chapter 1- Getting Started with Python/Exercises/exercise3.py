@@ -1,3 +1,4 @@
+#Print date and Time
 import datetime
 
 current_date = datetime.date.today()
