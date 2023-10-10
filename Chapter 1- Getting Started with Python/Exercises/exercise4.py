@@ -1,3 +1,4 @@
+#Strings Concatination
 name = "Mariez" 
 age = "16"
 school = "BathSpa University RAK"
