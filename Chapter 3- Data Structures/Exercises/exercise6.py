@@ -16,14 +16,14 @@ print("\nUnfortunately, we can't accommodate the third guest.")
 name = guests.pop()
 print("Sorry, " + name.title() + " there's no room at the dinner table.\n")
 
-# There should be two people left. Let's invite them.
+# Invite the 2 remaining guests
 name = guests[0].title()
-print(name + ", please come to dinner.")
+print(name + ", you are still invited to dinner.")
 
 name = guests[1].title()
-print(name + ", please come to dinner.")
+print(name + ", you are still invited to dinner.")
 
-# Empty out the list.
+# Clear out the list.
 del(guests[0])
 del(guests[0])
 
