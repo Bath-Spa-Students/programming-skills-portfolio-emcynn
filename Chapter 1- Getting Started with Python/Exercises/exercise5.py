@@ -1,3 +1,6 @@
+#Exercise 5: Compute area of Circle
+#Write a Python program which accepts the radius of a circle from the user and compute the area.
+
 #import math module
 from math import pi
 
