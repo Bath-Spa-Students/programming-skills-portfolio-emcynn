@@ -7,8 +7,10 @@
 •If the person is at least 20 years old but less than 65, print a message that the person is an adult.
 •If the person is age 65 or older, print a message that the person is an elder.'''
 
-age = 16
+#Setting a value for the age variable
+age = 17
 
+#Identify the person's stage of life 
 if age < 2:
     print("You're a baby!")
 elif age < 4:
