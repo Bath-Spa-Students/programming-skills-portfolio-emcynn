@@ -11,8 +11,10 @@
 •	 Use sort() to change your list so it’s stored in alphabetical order. Print the list to show that its order has been changed.
 •	 Use sort() to change your list so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.'''
 
+#List of the places I want to visit
 locations = ['Japan', 'Italy', 'Europe', 'Philippines', 'New Zealand']
 
+#Printing the list using the different given functions
 print("Original Order:")
 print(locations)
 

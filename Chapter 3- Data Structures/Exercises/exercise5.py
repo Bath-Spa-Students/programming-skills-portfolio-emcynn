@@ -7,8 +7,11 @@ someone else to invite.
 •Modify your list, replacing the name of the guest who can’t make it with the name of the new person you are inviting.
 •Print a second set of invitation messages, one for each person who is still in your list.'''
 
+
+#List of invited guests
 guests = ["Maryel Angela", "Seif Ibrahim", "Heba Albari"]
 
+#Printing an invitation message for each person
 name = guests[0].title()
 print("Greetings, " + name + "!" + " Please join us for a lovely dinner. We'd be delighted to have you for an enjoyable evening.")
 
@@ -25,7 +28,7 @@ print("\nSorry, " + name + " can't make it to dinner.")
 del(guests[1])
 guests.insert(1, 'Yani Ariele')
 
-# Print the invitations again.
+#Print the invitations again.
 name = guests[0].title()
 print("\n" + name + ", please come to dinner.")
 
