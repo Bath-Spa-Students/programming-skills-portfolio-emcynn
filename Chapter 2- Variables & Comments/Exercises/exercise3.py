@@ -6,8 +6,10 @@ Print the name once, so the whitespace around the name is displayed.
 
 Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().'''
 
+#Assigning a variable
 name = "\tMariez Cauyan\n"
 
+#Applying the three stripping functions
 print("Unmodified:")
 print(name)
 

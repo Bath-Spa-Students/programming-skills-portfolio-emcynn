@@ -5,11 +5,11 @@ Write a programme that calculates how many USB sticks she can buy and how many p
 
 You will to use the arithmetic operators to complete this exercise.'''
 
-# Define the cost of one USB stick and the total budget
+#Define the cost of one USB stick and the total budget
 usb_stick = 6
 budget = 50
 
-# Calculate the maximum number of USB sticks she can buy
+#Calculate the maximum number of USB sticks she can buy
 num_usb_sticks = budget // usb_stick
 
 #Calculate remaining money after buying USB sticks
