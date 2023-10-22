@@ -4,7 +4,7 @@
 #import math module
 from math import pi
 
-#request input from user
+#request input from the user
 r = float(input ("What is the radius of the circle : "))
 
 #area of the circle based on the inputted radius
