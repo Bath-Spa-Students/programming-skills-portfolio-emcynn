@@ -5,6 +5,7 @@ def describe_city(city, country='Turkey'):
     msg = city.title() + " is a city located in " + country.title() + "."
     print(msg)
 
+#Call function for three different cities
 describe_city('Konya')
-describe_city('Milan', 'Italy')
+describe_city('Milan', 'Italy') #Not in the default country
 describe_city('Antalya')
