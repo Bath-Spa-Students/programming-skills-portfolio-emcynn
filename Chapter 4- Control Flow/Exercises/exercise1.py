@@ -6,11 +6,13 @@
 #Assigning a color to the Alien 
 alien_color = 'green'
 
+#Program version that passes 
 if alien_color == 'green':
     print("You earned 5 points!")
 
 alien_color = 'yellow'
 
+#Program version that fails 
 if alien_color == 'green':
     print("You earned 5 points!")
 
