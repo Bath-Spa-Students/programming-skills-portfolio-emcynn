@@ -1,4 +1,4 @@
-#output the numbers 1-9, each on a separate line followed by a dot 
+#Output the numbers 1-9, each on a separate line followed by a dot 
 print ('''1.
 2.
 3.
