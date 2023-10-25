@@ -1,2 +1,2 @@
-#Print 'hi' 50 times without separators
+# Print 'hi' 50 times without separators
 print ("Hi" * 50)
