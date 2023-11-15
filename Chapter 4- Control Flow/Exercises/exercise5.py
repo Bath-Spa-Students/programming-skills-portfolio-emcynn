@@ -4,16 +4,16 @@
 •Write five if statements. Each should check whether a certain kind of fruit is in your list. If the fruit is in your list, the if block should print a statement,such as You really like bananas!'''
 
 #List of favorite fruits 
-fav_fruits = ['watermelon', 'bananas', 'grapes']
+favorite_fruits = ['watermelon', 'bananas', 'grapes']
 
 #Check for specific fruits
-if 'bananas' in fav_fruits:
+if 'bananas' in favorite_fruits:
     print("You really like bananas!")
-if 'watermelon' in fav_fruits:
+if 'watermelon' in favorite_fruits:
     print("You really like watermelon!")
-if 'grapes' in fav_fruits:
+if 'grapes' in favorite_fruits:
     print("You really like grapes!")
-if 'avocados' in fav_fruits:
+if 'avocados' in favorite_fruits:
     print("You really like avocados!")
-if 'mangoes' in fav_fruits:
+if 'mangoes' in favorite_fruits:
     print("You really like mangoes!")
