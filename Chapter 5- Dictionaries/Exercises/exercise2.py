@@ -1,5 +1,4 @@
 #Exercise 2: Glossary
-
 '''A Python dictionary can be used to model an actual dictionary. However, to avoid confusion, let’s call it a glossary.
 
 * Think of five programming words you’ve learned about in the previous chapters. Use these words as the keys in your glossary, and store their meanings as values.
