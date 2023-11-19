@@ -8,20 +8,20 @@ sandwich_orders = ['egg', 'pastrami', 'ham', 'pastrami', 'chicken', 'pastrami', 
 finished_sandwiches = []
 
 #Notify that the deli has run out of pastrami
-print(f"I'm sorry, we're all out of pastrami today.")
+print("I'm sorry, we're all out of pastrami today.")
 while 'pastrami' in sandwich_orders:
     sandwich_orders.remove('pastrami')
 
 #Loop through the sandwich orders list 
-print("\n")
+print("\nCurrent Orders:")
 while sandwich_orders:
     current_sandwich = sandwich_orders.pop()
-    print(f"I'm working on your " + current_sandwich + " sandwich.")
+    print(f"One {current_sandwich} sandwich coming right up!")
 
 #Add the finished sandwich to the other list
     finished_sandwiches.append(current_sandwich)
 
 #Print the list of the finished sandwich orders 
-print("\n")
+print("\nFinished Orders:")
 for sandwich in finished_sandwiches:
-    print(f"Your " + sandwich + " sandwich is ready.")
+    print(f"Your {sandwich} sandwich is ready.")
