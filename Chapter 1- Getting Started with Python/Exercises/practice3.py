@@ -1,3 +1,4 @@
+#Practice Exercise 3
 #Output the numbers 1-9, each on a separate line followed by a dot 
 print ('''1.
 2.

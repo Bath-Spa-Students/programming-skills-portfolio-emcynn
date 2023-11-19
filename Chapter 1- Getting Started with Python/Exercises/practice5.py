@@ -1,4 +1,5 @@
-#string Concatenation (four strings in different var and print the output as one string)
+#Practice Exercise 5
+#String Concatenation (four strings in different var and print the output as one string)
 name1 = "BathSpa"
 name2 = "University"
 name3 = "RAK"

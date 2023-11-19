@@ -1,3 +1,4 @@
+#Practice Exercise 4
 #Formula for area of a triangle 
 def area_triangle(base, height):
     return 0.5 * base * height
