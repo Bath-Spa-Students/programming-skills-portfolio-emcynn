@@ -1,22 +1,26 @@
 #Exercise 4: Rivers
-'''Make a dictionary containing three major rivers and the country each river runs through. One key-value pair might be 'nile': 'egypt'.
+'''Make a dictionary containing three major rivers and the country each river runs through.
 * Use a loop to print a sentence about each river, such as The Nile runs through Egypt.
 * Use a loop to print the name of each river included in the dictionary.
 * Use a loop to print the name of each country included in the dictionary.'''
 
+#Dictionary of rivers 
 rivers = {
     'Yangtze River': 'China',
     'Nile River': 'Egypt',
     'Amazon River': 'South America',
     }
 
+#Print sentence about each river
 for river, country in rivers.items():
-    print("The " + river.title() + " flows through " + country.title() + ".")
+    print(f"The {river} flows through {country}.")
 
-print("\nThis data set encompasses the following rivers:")
-for river in rivers.keys():
-    print("• " + river.title())
+#Display names of each river 
+print("\nRivers included in the dictionary:")
+for river in rivers:
+    print("• " + river)
 
-print("\nThis data set encompasses the following countries:")
-for country in rivers.values():
-    print("• " + country.title())
+#Display names of each country
+print("\nCountries included in the dictionary:")
+for country in rivers:
+    print("• " + country)
