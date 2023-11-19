@@ -1,7 +1,7 @@
 #Exercise 2: Print the Version of Python
 #Write a Python program to get the Python version you are using.
-
-import sys
+ 
+import sys #Accesing sys module
 
 #Printing the python version
 print("The Python version you are currently using is:")
